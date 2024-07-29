@@ -90,7 +90,7 @@ def main():
  
     # Plotting the regression line
     plt.figure(figsize = (8,6))
-    plt.scatter(X, Y, marker='orange', color='pink')
+    plt.scatter(X, Y, marker='o', color='pink')
     plt.plot([min(X), max(X)], [min(Y_pred), max(Y_pred)], color='blue',markerfacecolor='red',
              markersize=10,linestyle='dashed')
     plt.xlabel("X")
